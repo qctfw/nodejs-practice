@@ -56,4 +56,8 @@ exports.getProducts = (req, res, next) => {
             path: '/admin/products'
         });
     });
-}
+};
+
+exports.postDeleteProduct = (req, res, next) => {
+    const productId = req.body.productId;
+};
